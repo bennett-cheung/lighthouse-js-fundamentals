@@ -4,7 +4,7 @@ function range(start, end, step){
   if (end > start && step > 0)
   {
     var index = start;
-    while (index < end)
+    while (index <= end)
     {
 
       returnArray.push(index);
@@ -14,6 +14,6 @@ function range(start, end, step){
   return returnArray;
 }
 
-console.log(range(0, 10, 2));
+console.log(range(0, 8, 2));
 console.log(range(10, 30, 5));
-console.log(range(-5, 2, 3));
+console.log(range(-9, 3, 3));
