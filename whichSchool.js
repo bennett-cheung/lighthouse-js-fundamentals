@@ -2,15 +2,15 @@ function whichSchool(age){
   var returnSchool = "";
   if (age < 13)
   {
-    returnSchool= "Elementary School";
+    returnSchool = "Elementary School";
   }
   else if (age >= 13 && age <=18)
   {
-    returnSchool= "Secondary School";
+    returnSchool = "Secondary School";
   }
   else
   {
-    returnSchool= "Lighthouse Labs";
+    returnSchool = "Lighthouse Labs";
   }
   return returnSchool;
 }
