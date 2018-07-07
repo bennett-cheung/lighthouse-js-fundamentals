@@ -3,8 +3,12 @@ function range(start, end, step){
 
   if (end > start && step > 0)
   {
-    for (var i = start; i < end; i+=step) {
-      returnArray.push(i);
+    var index = start;
+    while (index < end)
+    {
+
+      returnArray.push(index);
+      index += step;
     }
   }
   return returnArray;
