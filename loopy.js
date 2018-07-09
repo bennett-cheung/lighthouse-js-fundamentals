@@ -1,3 +1,6 @@
+"use strict";
+
+
 function loopy(){
 
   for (var i = 100; i <= 200; i++) {
